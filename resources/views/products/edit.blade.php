@@ -20,6 +20,7 @@
         <input type="text" name="name" value="{{ $product->name }}">
         <input type="number" name="quantity" value="{{ $product->quantity }}">
         <textarea name="description">{{ $product->description }}</textarea>
+        <input type="text" name="tags" value="{{ $product->tags }}" placeholder="Tags (comma-separated)">
         <input type="submit" value="Submit">
     </form>
 </x-layout>
